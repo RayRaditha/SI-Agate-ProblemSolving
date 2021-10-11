@@ -6,13 +6,11 @@ public class BallMovement : MonoBehaviour
 {
     Rigidbody2D rb;
 
+    //Untuk menggerakkan bola menggunakan WASD atau arrowkey
     float horizontal;
     float vertical;
     
     public float maxMoveSpeed = 10f;
-    public float smoothTime = 0.4f;
-
-    Vector2 currentVelocity;
 
     // Start is called before the first frame update
     void Start()
@@ -23,11 +21,7 @@ public class BallMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Gerakan mengikuti Mouse
-        Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        transform.position = Vector2.SmoothDamp(transform.position, mousePosition, ref currentVelocity, smoothTime, maxMoveSpeed);
-
-        // gerakan player menggunakan WASD ataupun arrowkey
+        // menggerakkan bola menggunakan WASD atau arrowkey
         horizontal = Input.GetAxisRaw("Horizontal");
         vertical = Input.GetAxisRaw("Vertical");
     }
