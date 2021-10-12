@@ -34,6 +34,7 @@ public class BallMouseMovement : MonoBehaviour
     {
         if (collision.gameObject.tag == "kotakobject")
         {
+            transform.localScale += new Vector3(0.05f, 0.05f, 0.05f);
             score.IncrementScore();
             Destroy(collision.gameObject);
         }
