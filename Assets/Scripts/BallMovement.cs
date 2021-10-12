@@ -30,5 +30,6 @@ public class BallMovement : MonoBehaviour
     {
         rb.velocity = new Vector2(horizontal * maxMoveSpeed, vertical * maxMoveSpeed);
     }
+
 }
 

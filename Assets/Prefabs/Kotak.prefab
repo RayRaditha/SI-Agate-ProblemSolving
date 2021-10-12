@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5388554567536644345}
   m_Layer: 0
   m_Name: Kotak
-  m_TagString: Untagged
+  m_TagString: kotakobject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

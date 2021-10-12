@@ -13,6 +13,7 @@ public class BallMouseMovement : MonoBehaviour
     public float smoothTime = 0.4f;
 
     Vector2 currentVelocity;
+    public ScoreValue score;
 
     // Start is called before the first frame update
     void Start()
@@ -28,4 +29,14 @@ public class BallMouseMovement : MonoBehaviour
         transform.position = Vector2.SmoothDamp(transform.position, mousePosition, ref currentVelocity, smoothTime, maxMoveSpeed);
 
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "kotakobject")
+        {
+            score.IncrementScore();
+            Destroy(collision.gameObject);
+        }
+    }
+
 }
