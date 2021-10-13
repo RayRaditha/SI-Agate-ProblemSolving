@@ -6,6 +6,36 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Menu.unity
+    guid: 4b9c8b218f53f2b4f9d7bcf341c618f1
+  - enabled: 1
+    path: Assets/Scenes/ProblemSatu.unity
+    guid: b38191bc4f21a4842aabe72d3a5621d9
+  - enabled: 1
+    path: Assets/Scenes/ProblemDua.unity
+    guid: 81da2b4607c4ae1448a9ca90886fa773
+  - enabled: 1
+    path: Assets/Scenes/ProblemTiga.unity
+    guid: 2901c314c823de6499089df67894401a
+  - enabled: 1
+    path: Assets/Scenes/ProblemEmpat.unity
+    guid: c7e42defe8079ac4f8b3a11c435c9a7d
+  - enabled: 1
+    path: Assets/Scenes/ProblemLima.unity
+    guid: 9c522b5fd52ebee489ecf503bca3c62c
+  - enabled: 1
+    path: Assets/Scenes/ProblemEnam.unity
+    guid: e8ec73fb0d8c8a44bba878fb854618dc
+  - enabled: 1
+    path: Assets/Scenes/ProblemTujuh.unity
+    guid: 701a281b48a8acf4284511aff9ff7121
+  - enabled: 1
+    path: Assets/Scenes/ProblemDelapan.unity
+    guid: a9b8a8cfe0d299d479bf602a9ff13712
+  - enabled: 1
+    path: Assets/Scenes/ProblemSembilan.unity
+    guid: a76b75d41f77a7344af9bd1bda064263
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}
